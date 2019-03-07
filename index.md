@@ -1,3 +1,7 @@
+### Quick and Dirty Presentations with [Big](https://github.com/tmcw/big)
+
+---
+
 First things first...
 
 <span class='nobreak'>`$ npm install -g big-presentation`</span>
@@ -47,6 +51,6 @@ You can even host your presentation for free in a matter of seconds using [Githu
 
 ---
 
-For more tips and tricks checkout the <span class='nobreak'>[`big-presentation`](https://github.com/tmcw/big)</span> documentation on Github.
+For more tips and tricks checkout the [documentation](https://github.com/tmcw/big) on Github.
 
 <small class='nobreak'>And a big thanks to [Tom MacWright](https://github.com/tmcw) for creating this project!</small>
