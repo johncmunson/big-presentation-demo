@@ -54,3 +54,11 @@ You can even host your presentation for free in a matter of seconds using [Githu
 For more tips and tricks checkout the [documentation](https://github.com/tmcw/big) on Github.
 
 <small class='nobreak'>And a big thanks to [Tom MacWright](https://github.com/tmcw) for creating this project!</small>
+
+---
+
+The source for this presentation can be found at [johncmunson/big-presentation-demo](https://github.com/johncmunson/big-presentation-demo)
+
+---
+
+<div class='blink'>[fin]</div>
