@@ -14,20 +14,31 @@
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body class='light'>
-  <div><p>It&#39;s _big_, but a little more eazy</p>
+  <div><p>First things first...</p>
+<p><span class='nobreak'><code>$ npm install -g big-presentation</code></span></p>
 </div>
-<div><p>Put dashes between slides to separate them.</p>
+<div><p>To initialize a new presentation, run...</p>
+<p><span class='nobreak'><code>$ big-presentation-init dope-prez</code></span></p>
 </div>
-<div><p>Supports lists</p>
-<ul>
-<li>Like</li>
-<li>This</li>
-<li>One</li>
-</ul>
+<div><p>You could write your presentation in the included <code>index.html</code>...</p>
 </div>
-<div><div class='blink'>
-    [questions]
+<div><p>...but that&#39;s no fun when we could be using markdown!</p>
+<p><code>$ touch index.md</code></p>
 </div>
+<div><p>Then, just write markdown, separating your slides with ———</p>
+</div>
+<div><p>You can do <span class='blink'>fancy things</span> by tweaking <code>big.css</code> or <code>big.js</code> and falling back to using HTML inside your markdown</p>
+</div>
+<div><pre><code class="language-html">..can do &lt;span class=&#39;blink&#39;&gt;fancy things&lt;/span&gt; by tweaking..</code></pre>
+</div>
+<div><p>To compile your markdown presentation to HTML, run... <span class='nobreak'><code>big-presentation-compose</code></span></p>
+</div>
+<div><p>Then, to serve up your presentation in the browser, run... <span class='nobreak'><code>big-presentation-serve</code></span></p>
+</div>
+<div><p>You can even host your presentation for free in a matter of seconds using <a href="https://pages.github.com/">Github Pages</a>!</p>
+</div>
+<div><p>For more tips and tricks checkout the <span class='nobreak'><a href="https://github.com/tmcw/big"><code>big-presentation</code></a></span> documentation on Github.</p>
+<p><small class='nobreak'>And a big thanks to <a href="https://github.com/tmcw">Tom MacWright</a> for creating this project!</small></p>
 </div>
 </body>
 </html>
